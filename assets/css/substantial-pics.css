@@ -1,4 +1,3 @@
-
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -110,6 +109,12 @@ body{
   height:10px;
   margin:3px;
   background:#CCC;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px; 
 }
 
 #coda-list a:hover{
